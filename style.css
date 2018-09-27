@@ -1,0 +1,34 @@
+body {
+    background: #aaa
+}
+.content {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+.flex-container {
+    background: #fff;
+    display: flex;
+}
+/*.flex-container:after {
+    content: "";
+    display: block;
+    clear: both;
+}*/
+.item {
+    height: 100px;
+    min-width: 120px;
+    float: left;
+}
+.first {
+    background: green;
+}
+.second {
+    background: #f60;
+}
+.third {
+    background: red;
+}
+.clear {
+    clear: both;
+}
