@@ -21,7 +21,9 @@ body {
     /* flex-flow: flex-direction flex-wrap*/
     flex-flow: row nowrap;
     /*flex-direction: column;*/
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    align-items: center;
+    
 }
 /*.flex-container:after {
     content: "";
@@ -41,6 +43,13 @@ body {
     justify-content follows main axis
     when flex-flow is row then main axis is horizontal
     when flex-flow is column then main axis is vertical
+*/
+
+
+/* 
+    align-items follows cross axis
+    when flex-flow is row then cross axis is vertical
+    when flex-flow is column then main axis is horizontal
 */
 
 .item {
