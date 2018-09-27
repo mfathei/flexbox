@@ -9,13 +9,20 @@ body {
 .flex-container {
     background: #fff;
     display: flex;
+    min-height: 600px;
+    /*flex-direction: row;*/
+    /*flex-direction: row-reverse;*/
+    /*flex-direction: column;*/
+    flex-direction: column-reverse;
 }
 /*.flex-container:after {
     content: "";
     display: block;
     clear: both;
 }*/
+
 .item {
+    width: 100px;
     height: 100px;
     min-width: 120px;
     float: left;
