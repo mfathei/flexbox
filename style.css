@@ -9,11 +9,11 @@ body {
 .flex-container {
     background: #fff;
     display: flex;
-    min-height: 600px;
+    /*min-height: 600px;*/
     /*flex-direction: row;*/
     /*flex-direction: row-reverse;*/
     /*flex-direction: column;*/
-    flex-direction: column-reverse;
+    /*flex-direction: column-reverse;*/
 }
 /*.flex-container:after {
     content: "";
@@ -22,19 +22,20 @@ body {
 }*/
 
 .item {
-    width: 100px;
     height: 100px;
-    min-width: 120px;
-    float: left;
+    /*min-width: 120px;*/
 }
 .first {
     background: green;
+    flex-grow: 1;
 }
 .second {
     background: #f60;
+    flex-grow: 2;
 }
 .third {
     background: red;
+    flex-grow: 6;
 }
 .clear {
     clear: both;
