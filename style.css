@@ -17,7 +17,7 @@ body {
     /*flex-direction: column-reverse;*/
     /*flex-wrap: nowrap;*/
     /*flex-wrap: wrap;*/
-    flex-wrap: wrap-reverse;
+    /*flex-wrap: wrap-reverse;*/
 }
 /*.flex-container:after {
     content: "";
@@ -27,7 +27,9 @@ body {
 
 .item {
     height: 100px;
-    width: 200px;
+    /*min-width: 200px;*/
+    /* flex-basis like min-width but responsive*/
+    flex-basis: 200px;
 }
 .first {
     background: green;
