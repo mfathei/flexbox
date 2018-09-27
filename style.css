@@ -19,7 +19,8 @@ body {
     /*flex-wrap: wrap;*/
     /*flex-wrap: wrap-reverse;*/
     /* flex-flow: flex-direction flex-wrap*/
-    flex-flow: row nowrap;
+    /*flex-flow: row nowrap;*/
+    flex-direction: column;
 }
 /*.flex-container:after {
     content: "";
@@ -27,13 +28,22 @@ body {
     clear: both;
 }*/
 
+/*
+
+  when flex-direction is row then flex-basis is min-width
+
+  when flex-direction is column then flex-basis is min-height
+
+ */
+
 .item {
     height: 100px;
     /*min-width: 200px;*/
     /* flex-basis like min-width but responsive*/
     /*flex-basis: 200px;*/
     /* flex: flex-grow flex-shrink flex-basis*/
-    flex: 1 0 100px;
+    /*flex: 1 0 100px;*/
+    flex-basis: 200px;
 }
 .first {
     background: green;
